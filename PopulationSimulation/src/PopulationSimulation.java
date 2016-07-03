@@ -32,20 +32,21 @@ public class PopulationSimulation {
 				out.println("Simulation ends.");
 				break;
 			}else if( inputLowerCase.startsWith(SET_BRITH_RATE) ){
-				float rate = Float.parseFloat(input.substring(input.lastIndexOf(' ')));
+				int lastSpaceIndex = input.lastIndexOf(' ');
+				float rate = Float.parseFloat(input.substring(lastSpaceIndex));
 				float prevRate = population.getBirthProb();
 				population.setBirthProb(rate);
-				out.println("change birth rate: "+prevRate + " to " + rate);
+				System.out.println("change birth rate: "+prevRate + " to " + rate);
 			}else if( inputLowerCase.startsWith(SET_DEATH_RATE) ){
 				float rate = Float.parseFloat(input.substring(input.lastIndexOf(' ')));
 				float prevRate = population.getDeathProb();
 				population.setDeathProb(rate);
-				out.println("change death rate: "+prevRate+ " to "+ rate);
+				System.out.println("change death rate: "+prevRate+ " to "+ rate);
 			}else if( inputLowerCase.startsWith(SET_MARRIAGE_RATE) ){
 				float rate = Float.parseFloat(input.substring(input.lastIndexOf(' ')));
 				float prevRate = population.getMarriageProb();
 				population.setMarriageProb(rate);
-				out.println("change marriage rate: "+prevRate+" to "+rate);
+				System.out.println("change marriage rate: "+prevRate+" to "+rate);
 			}else if( inputLowerCase.startsWith(SHOW) ){
 				String fullName = input.substring(SHOW.length()+1);				
 				Person p = population.find(fullName);
