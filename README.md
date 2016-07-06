@@ -1,5 +1,7 @@
 # java_study
 java codes for study
 
-PopulationSimulation - 인구 시물레이션 문제. 자세한 문제 설명은 java_study/PopulationSimulation/인구시뮬레이션문제.txt
-TankSimul - 탱크 전투 시뮬레이션. 자세한 문제 설명은 java_study/TankSimul/탱크시뮬레이션문제설명.txt
+PopulationSimulation - 인구 시물레이션 문제. 
+	자세한 문제 설명은 https://github.com/happyit84/java_study/blob/master/PopulationSimulation/%EC%9D%B8%EA%B5%AC%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%EB%AC%B8%EC%A0%9C.txt
+TankSimul - 탱크 전투 시뮬레이션. 
+	자세한 문제 설명은 https://github.com/happyit84/java_study/blob/master/TankSimul/%ED%83%B1%ED%81%AC%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%EB%AC%B8%EC%A0%9C%EC%84%A4%EB%AA%85.txt
